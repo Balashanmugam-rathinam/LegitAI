@@ -1,17 +1,11 @@
-import re
 import requests
 
-def extract_and_validate_links(text):
-    url_pattern = r"https?://[^\s)]+"
-    urls = re.findall(url_pattern, text)
+def validate_links(url_list):
     validated = []
-
-    for url in urls:
+    for url in url_list:
         try:
-            response = requests.head(url, timeout=5)
-            valid = response.status_code == 200
+            r = requests.head(url, allow_redirects=True, timeout=5)
+            validated.append((url, r.status_code < 400))
         except Exception:
-            valid = False
-        validated.append((url, valid))
-    
+            validated.append((url, False))
     return validated
