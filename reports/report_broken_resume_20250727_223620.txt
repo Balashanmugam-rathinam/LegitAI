@@ -1,0 +1,37 @@
+Smart Resume Screener & Verifier Report
+==================================================
+
+Resume Filename: broken_resume.pdf
+Similarity Score: 17.77%
+
+Validated Hyperlinks:
+- https://linkedin.com/in/johndoe123456789 --> Invalid
+- https://github.com/johndoe --> Valid
+
+Resume Content:
+--------------------------------------------------
+John Doe  
+Email: john.doe@example.com  
+Phone: +91 -9876543210  
+LinkedIn:  https://linkedin.com/in/johndoe123456789  
+GitHub:  https://github.com/johndoe  
+ 
+Objective  
+Passionate data analyst with 3+ years of experience in Python, SQL, and Power BI. Looking for a 
+challenging role in a data -driven organization.  
+ 
+Skills  
+• Python, SQL  
+• Power BI, Tableau  
+• Pandas, NumPy  
+• Machine Learning  
+ 
+Experience  
+Data Analyst – ABC Corp  
+Jan 2020 – Mar 2023  
+• Built dashboards using Power BI  
+• Automated weekly reports with Python scripts  
+• Reduced data processing time by 30%  
+ 
+Education  
+MSc in Data Science – XYZ University – 2019
