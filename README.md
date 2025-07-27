@@ -97,7 +97,7 @@ Thank you for using Smart Resume Screener!
 
 ## 👥 Authors
 
-- Balashanmugam – [Your LinkedIn/GitHub URL here]
+- Balashanmugam – [https://github.com/Balashanmugam-rathinam]
 
 ---
 
